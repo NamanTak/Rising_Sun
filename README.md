@@ -27,10 +27,14 @@ git add .
 git commit -m "any_message"
 git push --force origin <branch_name>
 
-Git clone <url>
-cd <repository_name>
-git branch <branch_name>
-git checkout <branch_name>
+
+
+##############################################################
+Git clone https://github.com/NamanTak/Rising_Sun.git
+cd Rising_Sun
+git branch developers
+git checkout developers
 git add . 
 git commit -m "any_message"
-git push --force origin <branch_name>
+git push --force origin developers
+######################################################################
